@@ -1,5 +1,5 @@
-const apiURL = 'https://pokeapi.co/api/v2/pokemon/';const apiURL = 'https://pokeapi.co/api/v2/pokemon/';
-let container = document.querySelector('.container');
+const apiURL = 'https://pokeapi.co/api/v2/pokemon/';
+let currentId = 1;
 
 const renderDetails = (details) => {
     const container = document.querySelector('.container');
